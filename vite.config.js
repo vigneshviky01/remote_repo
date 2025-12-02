@@ -16,7 +16,7 @@ export default defineConfig({
     })
   ],
   build: {
-    target: 'esnext',     // MF plugin recommends esnext
+    // target: 'esnext',     // MF plugin recommends esnext
     modulePreload: false,
     minify: false,
     cssCodeSplit: false
