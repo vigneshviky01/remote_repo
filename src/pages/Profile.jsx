@@ -5,7 +5,7 @@ export default function Profile({ userInfo }) {
     <>
       {user ? (
         <div>
-          <h2>Remote Profile Page</h2>
+          <h2>Remote Profile Testing Page.........</h2>
           <p><strong>Name:</strong> {user.name}</p>
           <p><strong>Email:</strong> {user.email}</p>
           {user.role && <p><strong>Role:</strong> {user.role}</p>}
