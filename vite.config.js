@@ -7,6 +7,7 @@ export default defineConfig({
     react(),
     federation({
       name: 'remote_app',
+      base: '/',
       filename: 'remoteEntry.js',
       exposes: {
         // This is the module we will import from the host as "remote_app/ProfilePage"
